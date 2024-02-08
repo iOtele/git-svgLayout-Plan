@@ -1,0 +1,186 @@
+.container {
+    background: radial-gradient(rgba(0,0,0,0.5),rgba(6,0,0,0.6));
+    border: 2px solid black;
+    position: relative;
+    width: fit-content;
+   user-select: none;
+   -webkit-user-select: none;
+   list-style: none;
+   padding: 0;
+}
+
+path:hover{
+    fill: red;
+    cursor: pointer;
+}
+rect:hover{
+   fill: blue;
+   cursor: pointer;
+}
+ellipse{
+    fill: red;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+.area{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+   width: fit-content;
+   /* margin: 0 auto; */
+   
+   }
+   .area{
+    display: none;
+   }
+.rec{
+    top: 20%;
+    left: 2%;
+}
+.crv{
+    top: 32%;
+    left: 2%;
+}
+.bdo{
+    top: 40%;
+    left: 9%;
+}
+.cr{
+    top: 48%;
+    left: 0;
+}
+.pro{
+    top: 12%;
+    left: 39%;
+}
+.fin{
+    top: 12%;
+    right: 15%;
+}
+.hop{
+    top: 28%;
+    right: 2%; 
+}
+.md{
+    top: 50%;
+    right: 1%; 
+}
+.vrest{
+    top: 12%;
+    left: 30%;
+}
+.frest{
+    top: 35%;
+    right: 3%; 
+}
+.walk{
+    top: 63%;
+    left: 25%;
+}
+.can{
+    bottom: 27%;
+    left: 25%;
+}
+.itoffice{
+    bottom: 5%;
+    right: 30%;
+}
+.ad{
+    bottom: 5%;
+    left: 48%;
+}
+.prstore{
+    bottom: 5%;
+    left: 20%;
+}
+.str{
+    bottom: 5%;
+    left: 39%;
+}
+.gam{
+    top: 43%;
+    left: 48%;
+}
+.bi{
+    top: 42%;
+    right: 10%; 
+} 
+.hbd{
+    top: 12%;
+    right: 30%;
+}
+.crlo{
+    top: 37%;
+    left: 27%;
+}
+.mdlob{
+    top: 22%;
+    left: 30%;
+}
+.gamc{
+top: 32%;
+    left: 48%;
+} 
+
+/* .menu,.menu-2{
+    width: 100px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0.8rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.1);
+    position: absolute;
+    display: none;
+    padding: 5px;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.menu{
+    color: green;
+    background: white;
+}
+.menu-2{
+    background-color: grey;
+    color: white;
+}
+ .menu li,.menu-2 li{
+    height: 2rem;
+    padding-left: 5px; 
+    font-size: 1rem; 
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.menu li:hover,.menu-2 li:hover{
+    color: orangered;
+    background: #f4577022;
+    cursor: pointer;
+} */
+
+
+
+.context-menu {
+    position: absolute;
+    background-color: #b9b2b2;
+    border: 1px solid #383131;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 5px;
+    height: auto;
+}
+
+.context-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.context-menu li:hover {
+    background-color: #4b4242;
+    color: white;
+}
